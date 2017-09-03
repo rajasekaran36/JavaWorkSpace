@@ -1,0 +1,27 @@
+package com.raja.projects.studentdatabase;
+
+import java.util.Scanner;
+
+public class Student {
+	String name;
+	String phoneNo;
+	String email;
+	
+	public Student() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Student Details");
+		System.out.print("Name:");
+		name = input.next();
+		System.out.print("PhoneNo:");
+		phoneNo = input.next();
+		System.out.print("Email:");
+		email = input.next();
+		input.close();
+		
+	}
+	public Student(String name, String phoneNo, String email){
+		this.name = name;
+		this.phoneNo = phoneNo;
+		this.email = email;
+	}
+}

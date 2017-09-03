@@ -1,0 +1,19 @@
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+
+public class Main {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		URL u = new URL("http://www.javapoint.com");
+		System.out.print(u.getAuthority());
+		System.out.print(u.getContent());
+
+	}
+
+}
