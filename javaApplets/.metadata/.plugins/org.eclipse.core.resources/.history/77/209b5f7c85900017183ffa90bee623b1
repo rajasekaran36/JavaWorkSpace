@@ -1,0 +1,21 @@
+import java.applet.Applet;
+import java.awt.Graphics;
+
+
+public class SimpleApplet extends Applet{
+	public void init(){
+		System.out.print("Init Called");
+	}
+	public void start() {
+		System.out.print("Start Called");
+	}
+	public void stop() {
+		System.out.print("Stop Called");
+	}
+	public void destroy() {
+		System.out.print("Destroy Called");
+	}
+	public void paint(Graphics g) {
+		System.out.print("Paint Called");
+	}
+}
