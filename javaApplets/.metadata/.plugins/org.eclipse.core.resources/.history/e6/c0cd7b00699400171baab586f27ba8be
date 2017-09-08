@@ -1,0 +1,14 @@
+import java.applet.Applet;
+import java.awt.Graphics;
+import java.awt.Image;
+
+
+public class AppletImage extends Applet {
+	Image im;
+	public void init(){
+		im = getImage(getDocumentBase(), "flower.jpg");
+	}
+	public void paint(Graphics g){
+		g.drawImage(im,30,30,this);
+	}
+}
