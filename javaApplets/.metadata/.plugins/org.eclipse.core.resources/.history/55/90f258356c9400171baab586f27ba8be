@@ -1,0 +1,14 @@
+import java.applet.Applet;
+import java.applet.AudioClip;
+
+
+public class AppletSounds extends Applet{
+
+AudioClip clip;
+public void init(){
+	clip = getAudioClip(getCodeBase(), "testsound.wav");
+}
+public void start(){
+	clip.play();
+}
+}

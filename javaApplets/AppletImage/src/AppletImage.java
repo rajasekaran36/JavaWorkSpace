@@ -1,9 +1,6 @@
 import java.applet.Applet;
 import java.awt.Graphics;
 import java.awt.Image;
-import java.net.MalformedURLException;
-import java.net.URL;
-
 
 public class AppletImage extends Applet {
 	Image im;
